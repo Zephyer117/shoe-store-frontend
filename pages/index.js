@@ -7,7 +7,6 @@ export default function Home({ products }) {
   return (
     <>
       <main>
-        <h1>{products?.data?.[0]?.attributes?.price}</h1>
         <HeroBanner />
         <Wrapper>
           <div className="text-center max-w-[800px] mx-auto my-[50px] md:my-[80px]">
